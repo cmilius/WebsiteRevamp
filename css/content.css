@@ -3,11 +3,12 @@
   height: auto;
   position: absolute;
   width: 100%;
+  overflow: auto;
 
 }
 
 /*for when the menu is open, push everything to the right*/
 .content-push-toright {
-	left: 240px;
-  width: 100%;
+	left: 15%;
+  width: 85%;
 }

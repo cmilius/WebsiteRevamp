@@ -8,10 +8,10 @@
 	background: #960023;
 	position: absolute;
   float: left;
-  width: 240px;
+  /*width: 240px;*/
+	width: 15%;
   height:100%;
   z-index: 100;
-  //left: -240px;
 }
 
 
