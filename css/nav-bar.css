@@ -6,10 +6,10 @@
 /*sets menu selections*/
 .nav-bar {
 	background: #960023;
-	position: relative;
+	position: absolute;
   float: left;
   width: 240px;
-  height:inherit;
+  height:100%;
   z-index: 100;
   //left: -240px;
 }
