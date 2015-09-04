@@ -1,0 +1,51 @@
+/*start the menu off of the screen*/
+.nav-bar-left {
+	left: -240px;
+}
+
+/*sets menu selections*/
+.nav-bar {
+	background: #960023;
+	position: relative;
+  float: left;
+  width: 240px;
+  height:inherit;
+  z-index: 100;
+  //left: -240px;
+}
+
+
+/*sets the menu selection's text*/
+.nav-bar a {
+	display: block;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+/*sets what happens when you over over a menu option*/
+.nav-bar a:hover {
+	background: #eeab14;
+}
+
+/*changes the selction's appearance when you click it*/
+.nav-bar a:active {
+	background: #c60b36;
+	color: #eeab14;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+/*lines between the selections*/
+.nav-bar a {
+	border-bottom: 1px solid #960023;
+	padding: 1em;
+}
+
+/*Transitions so they move nice and pretty*/
+.nav-bar,
+.nav-bar-left {
+	-webkit-transition: all 0.3s ease;  /*webkit browsers*/
+	-moz-transition: all 0.3s ease;			/*firefox support*/
+	transition: all 0.3s ease;
+}

@@ -1,0 +1,109 @@
+/* General styles for all menus aka: nav bars*/
+.menu-bar > section button {
+	border: none;
+	background: #47a3da;
+	color: #fff;
+	padding: 0.5em;
+	display: block;
+	width: 270px;
+	cursor: pointer;
+	font-size: 2em;
+	font-weight: 400;
+	position: absolute;
+	z-index: 100;
+}
+
+.menu-bar > section button:hover {
+	background: #258ecd;
+}
+
+.menu-bar > section button.active {
+	background: #0d77b6;
+}
+
+.menu-bar > section button.disabled {
+	background: #aaa;
+	pointer-events: none;
+}
+
+/*sets menu header background and font*/
+.cbp-spmenu h3 {
+	color: #eeab14;
+	font-size: 1.9em;
+	padding: 40px;
+	margin: 0;
+	font-weight: 600;
+	background: #960023;
+}
+
+/*sets menu selections*/
+.cbp-spmenu {
+	background: #960023;
+	position: fixed;
+}
+
+/*sets the menu selection's text*/
+.cbp-spmenu a {
+	display: block;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+/*sets what happens when you over over a menu option*/
+.cbp-spmenu a:hover {
+	background: #eeab14;
+}
+
+/*changes the selction's appearance when you click it*/
+.cbp-spmenu a:active {
+	background: #c60b36;
+	color: #eeab14;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+/*width and height of each menu selection*/
+.cbp-spmenu-vertical {
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+/*lines between the selections*/
+.cbp-spmenu-vertical a {
+	border-bottom: 1px solid #960023;
+	padding: 1em;
+}
+
+/* Vertical menu that pushes in from the left*/
+/*start the menu off of the screen*/
+.cbp-spmenu-left {
+	left: -240px;
+}
+
+/*align the menu to the left when you open it*/
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+/* Push classes applied to the body */
+/*for when the menu isn't open, don't push anything*/
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+/*for when the menu is open, push everything to the right*/
+.cbp-spmenu-push-toright {
+	left: 240px;
+}
+
+/*Transitions so they move nice and pretty*/
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;  /*webkit browsers*/
+	-moz-transition: all 0.3s ease;			/*firefox support*/
+	transition: all 0.3s ease;
+}

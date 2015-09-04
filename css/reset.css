@@ -1,0 +1,5 @@
+/*resets the margins and padding for the entire site*/
+* {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,29 @@
+.menu-bar{
+  background-color: #bac223;
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+
+.menu-bar > button {
+	border: none;
+	background: #bac223;
+	color: #fff;
+	display: block;
+	width: 240px;
+	cursor: pointer;
+	font-size: 2em;
+	font-weight: 400;
+	position: absolute;
+	z-index: 100;
+  height: inherit;
+  text-align: left;
+}
+
+.menu-bar > button:hover {
+	background: #258ecd;
+}
+
+.menu-bar > button.active {
+	background: #960023;
+}
