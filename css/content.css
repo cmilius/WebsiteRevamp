@@ -4,6 +4,7 @@
   position: absolute;
   width: 100%;
   overflow: auto;
+  float: right;
 
 }
 
@@ -11,4 +12,5 @@
 .content-push-toright {
 	left: 15%;
   width: 85%;
+  /*something to stop it from overlapping the nav bar*/
 }

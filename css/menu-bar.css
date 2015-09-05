@@ -10,7 +10,8 @@
 	background: #bac223;
 	color: #fff;
 	display: block;
-	width: 240px;
+	width: 15%;
+  min-width: 150px;
 	cursor: pointer;
 	font-size: 2em;
 	font-weight: 400;
