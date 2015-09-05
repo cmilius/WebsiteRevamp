@@ -1,10 +1,13 @@
 .content{
   background-color: #47a3da;
+  background: #47a3da;
   height: auto;
   position: absolute;
   width: 100%;
-  overflow: auto;
   float: right;
+  padding-top: 100px;
+  padding-left: 100px;
+  z-index: 98;
 
 }
 
