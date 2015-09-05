@@ -12,5 +12,6 @@
 .content-push-toright {
 	left: 15%;
   width: 85%;
+  margin-left: 15%;
   /*something to stop it from overlapping the nav bar*/
 }

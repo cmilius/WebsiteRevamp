@@ -2,7 +2,8 @@
   background-color: #bac223;
   height: 80px;
   width: 100%;
-  position: relative;
+  position:fixed;
+  z-index: 100;
 }
 
 .menu-bar > button {
