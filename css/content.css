@@ -5,8 +5,9 @@
   position: absolute;
   width: 100%;
   float: right;
-  padding-top: 100px;
-  padding-left: 100px;
+  padding-top: 80px;
+  padding-left: 80px;
+  /*padding-right: 4000px;*/
   z-index: 98;
 
 }
@@ -15,5 +16,10 @@
 .content-push-toright {
 	left: 15%;
   width: 85%
-  /*something to stop it from overlapping the nav bar*/
+}
+
+/*set the background color for tables in the content section*/
+.content > section table {
+  background-color: #47a3da;
+  padding: 10px;
 }

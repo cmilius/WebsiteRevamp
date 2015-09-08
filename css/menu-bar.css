@@ -29,3 +29,11 @@
 .menu-bar > button.active {
 	background: #960023;
 }
+
+.menu-bar > h1 {
+  z-index: 100;
+  float: right;
+  font-size: 2em;
+  padding: 20px;
+  color: #fff;
+}
